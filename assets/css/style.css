@@ -1,0 +1,144 @@
+body {
+  background-image: url("../images/white.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.pic {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  /* background-color: rgba(255, 255, 255, 0.85); */
+  padding: 10px;
+}
+
+.pic {
+  float: left;
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: rgb(59, 85, 106);
+  /* top of the picture color */
+}
+
+#introimage {
+  width: 100%;
+}
+#contact {
+  text-align: center;
+}
+
+h1,
+h4 {
+  text-align: center;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+#resumeimage {
+  width: 100%;
+}
+.footer {
+  margin: auto;
+  background-color: rgb(59, 85, 106);
+}
+.footerwords {
+  margin-bottom: 5px;
+}
+
+.addpaddingforjump {
+  padding-top: 35px;
+}
+
+#copyright p {
+  text-align: center;
+}
+
+#navleftside li {
+  float: left;
+  padding-left: 10px;
+}
+
+#navrightside li {
+  float: right;
+  padding-right: 10px;
+}
+
+.navlinks li {
+  margin: 3px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.introdiv {
+  background-image: url("../images/placeholder.png");
+  background-color: rgba(255, 255, 255, 0.85);
+  min-height: 100%;
+  /* min-width: 100%; */
+  /* position: relative; */
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%;
+  color: white;
+}
+
+.blurb {
+  /* position: absolute; */
+  margin: auto;
+  /* top: 15px;
+  left: 30%; */
+  color: white;
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19); */
+}
+
+i.icon-white {
+  color: white;
+}
+.arrow {
+  /* position: absolute; */
+  color: white;
+  margin: auto;
+  width: 65px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.rightside {
+  float: right;
+}
+.leftside {
+  float: left;
+}
+
+.iconthing {
+  position: relative;
+  text-align: center;
+}
