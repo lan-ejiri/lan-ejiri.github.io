@@ -22,9 +22,12 @@ nav {
 
 #introdiv {
   background-image: url("./images/welcome.png");
+  background-repeat: no-repeat;
   height: 100vh;
+  /* background-position: center; */
   position: relative;
 }
+
 
 #welcome {
   font-size: 50px;
